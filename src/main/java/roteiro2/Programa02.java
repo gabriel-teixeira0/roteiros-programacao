@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package roteiro2;
 
 /**
  *
- * @author gabri
+ * @Gabriel Teixeira 
+ * Github: gabriel-teixeira0
  */
 public class Programa02 {
-    
+
+    public static void main(String[] args) {
+        double sb = 2500, st, valorHoraExtra;
+        int horasTrabalhadas = 160, numHorasExtras = 10;
+
+        valorHoraExtra = (sb / horasTrabalhadas) * numHorasExtras;
+        st = sb + valorHoraExtra;
+
+        System.out.println("Salário base: " + sb);
+        System.out.println("Salário total: " + st);
+    }
 }
